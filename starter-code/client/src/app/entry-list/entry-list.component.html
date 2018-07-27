@@ -1,0 +1,5 @@
+
+<div *ngFor="let jour of journal">
+  <a [routerLink]="['journal',jour._id]">{{jour.title}}</a>
+  {{jour.date}}
+</div>
